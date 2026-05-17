@@ -72,14 +72,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Altamash Sadiq — Software Agency & AI Solutions" },
+      { name: "description", content: "Altamash Sadiq builds modern web, mobile, AI, and automation solutions for startups, businesses, and innovators." },
+      { name: "author", content: "Altamash Sadiq" },
+      { property: "og:title", content: "Altamash Sadiq — Software Agency & AI Solutions" },
+      { property: "og:description", content: "Modern web, mobile, AI, and automation solutions crafted for impact." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       {
