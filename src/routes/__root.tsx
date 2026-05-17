@@ -76,9 +76,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "Altamash Sadiq builds modern web, mobile, AI, and automation solutions for startups, businesses, and innovators." },
       { name: "author", content: "Altamash Sadiq" },
       { property: "og:title", content: "Altamash Sadiq — Software Agency & AI Solutions" },
-      { property: "og:description", content: "Modern web, mobile, AI, and automation solutions crafted for impact." },
+      { property: "og:description", content: "Altamash Sadiq builds modern web, mobile, AI, and automation solutions for startups, businesses, and innovators." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Altamash Sadiq — Software Agency & AI Solutions" },
+      { name: "twitter:description", content: "Altamash Sadiq builds modern web, mobile, AI, and automation solutions for startups, businesses, and innovators." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c7375451-ba57-4e5e-bc06-ab92568271a6/id-preview-5773ce35--f2ad75cb-da82-4567-b200-c9e29234020c.lovable.app-1779015966154.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/c7375451-ba57-4e5e-bc06-ab92568271a6/id-preview-5773ce35--f2ad75cb-da82-4567-b200-c9e29234020c.lovable.app-1779015966154.png" },
     ],
     links: [
       {
